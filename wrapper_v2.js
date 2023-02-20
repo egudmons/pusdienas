@@ -1,13 +1,13 @@
 (function(window, document, $, undefined){
 
     //Course specific variables for linking to 508 script, resources, and glossary
-    //var link_508 = "../common/JS-US002-508Script.pdf";
-    var link_resources = "../common/resources.html";
-    var link_glossary = "../common/glossary.html";   
+    //var link_508 = "https://jkodirect.jten.mil/Atlas2/CourseWare/1745920/3/common/JS-US002-508Script.pdf";
+    var link_resources = "https://jkodirect.jten.mil/Atlas2/CourseWare/1745920/3/common/resources.html";
+    var link_glossary = "https://jkodirect.jten.mil/Atlas2/CourseWare/1745920/3/common/glossary.html";   
     
     //sound effect to play on button clicks (meant to mimic Captivate)
     //comment out if not using
-    //var btnClickSound = new Audio('../media/sounds/Mouse.mp3');
+    //var btnClickSound = new Audio('https://jkodirect.jten.mil/Atlas2/CourseWare/1745920/3/media/sounds/Mouse.mp3');
 
     var showResume;
     var expand = 0; //this is the variable that tells us what topic to expand
@@ -209,7 +209,7 @@
     function setupButtons(){
         
         //load the over state images
-        var imgRoot = '../css/images/';
+        var imgRoot = 'https://jkodirect.jten.mil/Atlas2/CourseWare/1745920/3/css/images/';
         var backOver = new Image();
         //var backDown = new Image();
         var nextOver = new Image();
@@ -301,7 +301,7 @@
         
         //help
         $helpBtn.on("click", function(){
-            window.open('../common/help.html');
+            window.open('https://jkodirect.jten.mil/Atlas2/CourseWare/1745920/3/common/help.html');
             playButtonSound();
         });
 
