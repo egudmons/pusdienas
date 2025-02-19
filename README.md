@@ -1,4 +1,0 @@
-# pusdienas
-Pusdienu lapa
-
-# Sākums
